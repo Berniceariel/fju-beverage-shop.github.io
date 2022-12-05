@@ -14,7 +14,18 @@
         height: 500px;
     }
 /*----輔仁title----*/
-
+    .header{
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(rbga(4,9,30,0,7),rbga(4,9,30,0,7)),url(images/輔仁.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #FFF;
+    }
+    .header h1{
+        margin-top: 100px;
+    }
     </style>
 <head>
     <meta charset="UTF-8">
@@ -27,9 +38,7 @@
 <body>
     <section class = "header"></section>
         <nav>
-            <h1>FJCU  Beverage  Shops</h1>
-            <h3>Welcome to our website</h3>
-            <a href="http://www3.csie.fju.edu.tw/layout/oneblue/vvindex.jsp"><img src="輔仁.jpg" alt="輔仁大學" style="width:1200px;height:800px;"></a>
+            <a href="http://www3.csie.fju.edu.tw/layout/oneblue/vvindex.jsp"><img src="輔仁.jpg" alt="輔仁大學"></a>
             <div class ="nav-links" id="navLinks">
                 <i class ="fa fa-times" oneclick ="hideMenu()"></i>
                 <ui>
@@ -38,6 +47,8 @@
             </div>
             <i class ="fa fa-bars" oneclick ="showMenu()"></i>
         </nav>
+        <h1>FJCU  Beverage  Shops</h1>
+        <h2>Welcome to our website</h2>
     </section>
 
 <div id="shops">
