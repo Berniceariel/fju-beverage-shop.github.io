@@ -13,6 +13,8 @@
         width: 1400px;
         height: 500px;
     }
+/*----輔仁title----*/
+
     </style>
 <head>
     <meta charset="UTF-8">
@@ -21,12 +23,24 @@
     
     <title>FJCU Beverage Shops</title>
 </head>
-<body>
-    <h1>FJCU  Beverage  Shops</h1>
-    <h3>Welcome to our website</h3>
 
- 
-   <a href="http://www3.csie.fju.edu.tw/layout/oneblue/vvindex.jsp"><img src="fju.png" alt="輔仁大學" style="width:1400px;height:500px;"></a>
+<body>
+    <section class = "header"></section>
+        <nav>
+            <h1>FJCU  Beverage  Shops</h1>
+            <h3>Welcome to our website</h3>
+            <a href="http://www3.csie.fju.edu.tw/layout/oneblue/vvindex.jsp"><img src="輔仁.jpg" alt="輔仁大學" style="width:1200px;height:800px;"></a>
+            <div class ="nav-links" id="navLinks">
+                <i class ="fa fa-times" oneclick ="hideMenu()"></i>
+                <ui>
+                    <li><a htef ="#shops">All Shops</a></li>
+                </ui>
+            </div>
+            <i class ="fa fa-bars" oneclick ="showMenu()"></i>
+        </nav>
+    </section>
+
+<div id="shops">
    <a href="https://berniceariel.github.io/50shop/"><img src="50.png" alt="50嵐" style="width:1400px;height: 500px;"></a>
    <a href="https://berniceariel.github.io/milksha/"><img src="milksha.jpg" alt="迷克夏" style="width:1400px;height:500px;"></a>
    <a href="https://berniceariel.github.io/kebuke/"><img src="可不可.png" alt="可不可熟成紅茶" style="width:1400px;height:500px;"></a>
@@ -35,7 +49,7 @@
    <a href="https://berniceariel.github.io/comebuy/"><img src="comebuy.jpg" alt="COMEBUY" style="width:1400px;height:500px;"></a>
    <a href="https://berniceariel.github.io/ching-shin/"><img src="清心福全.jpg" alt="清心福全" style="width:1400px;height:500px;"></a>
    <a href="https://berniceariel.github.io/louisa/"><img src="路易莎.jpg" alt="路易莎" style="width:1400px;height:500px;"></a>
-
+</div>
 
 
 </body>
